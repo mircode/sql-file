@@ -1,0 +1,13 @@
+2017-02-24 10:36:02 [main] INFO com.log.Log - execute error:java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.util.LinkedList.get(Unknown Source)
+	at com.core.Printer.printbuff(Printer.java:154)
+	at com.core.Printer.close(Printer.java:92)
+	at com.core.FileSQL.print(FileSQL.java:131)
+	at com.core.FileSQL.group(FileSQL.java:110)
+	at com.core.FileSQL.run(FileSQL.java:68)
+	at com.core.SQLMain.execute(SQLMain.java:13)
+	at com.shell.Console.run(Console.java:70)
+	at com.shell.Console.execute(Console.java:54)
+	at com.shell.Console.main(Console.java:138)
+
